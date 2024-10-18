@@ -1,0 +1,20 @@
+{
+  "name":"Level 1: Escape the Shelf",
+  "startingPosition": [0,0],
+  "exitPosition": [9,10],
+  "platforms": [
+    {"x":0, "y":0, "width": 10, "height": 1, "angle":0},
+    {"x":0, "y":1, "width": 1, "height": 10, "angle":20},
+    {"x":9, "y":1, "width": 1, "height": 10, "angle":-20},
+    {"x":1, "y":10, "width": 8, "height": 1, "angle":90}
+  ],
+  "enemySettings": {
+    "maxCount": 10,
+    "spawnPosition": [5,5],
+    "spawnRate": 1,
+    "speed": 1,
+    "drainPower": 1,
+    "type": "drain",
+    "color": "red"
+  }
+}
